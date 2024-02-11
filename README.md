@@ -5,7 +5,7 @@ Concert venue site listing shows and ticketing implemented with NextJs
 * NextJs
   * javascript framework
 * Jest
-  * authentication states
+  * ui and authentication states
 * React and Cypress Testing Library
   * rendering components and finding elements
 * Mock Service Worker

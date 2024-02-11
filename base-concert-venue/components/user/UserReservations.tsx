@@ -27,7 +27,7 @@ export const UserReservations = ({ userId }: { userId: number }) => {
     data: userReservations,
     error,
     isValidating,
-  } = useSWR(`user/${userId}/reservations`, () => getUserReservations(userId), {
+  } = useSWR(`users/${userId}/reservations`, () => getUserReservations(userId), {
     fallbackData: [],
   });
 
